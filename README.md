@@ -10,35 +10,35 @@ Aplikasi berbasis web yang merupakan versi simple dari aplikasi GO-RIDE pada GOJ
 
 Untuk menjalankan project ini, akan dibutuhkan ruby dan framework rails
 
-Ruby version: 2.5.1
+Ruby version: 2.5.1  
 Rails version: 5.2.1
 
 Setelah clone project ke local machine, kita perlu mendownload dependency yang dibutuhkan project agar dapat berjalan.
 
-'bundle install'
+`bundle install`
 
 Lalu lakukan database migration
 
-'rails db:migrate'
+`rails db:migrate`
 
 Setelah database terbentuk, isi data ke database
 
-'rails db:seed'
+`rails db:seed`
 
 Lalu kita dapat menjalankan server rails di dengan
 
-'rails server'
+`rails server`
 
 Atau untuk menjalankan server rails di port tertentu
 
-'rails server -p <port>'
+`rails server -p <port>`
 
 ---
 
 ## RUNNING THE TEST
 
 Untuk menjalankan testnya, dapat dengan meng execute command
-'rspec --format documentation'
+`rspec --format documentation`
 
 Things you may want to cover:
 
